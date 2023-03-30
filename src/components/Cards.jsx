@@ -26,7 +26,7 @@ function Cards({targetDate, activityName}) {
       <h2>{activityName}</h2>
       <FaCalendarWeek className='icon' />
       <p>{conter} Day</p>
-      <p>Target Date{targetDate}</p>
+      <p>Target Date: {targetDate}</p>
     </div>
   )
 }
