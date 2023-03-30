@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Cards from './components/Cards';
+import Nav from './components/Nav';
+import './css/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Nav />
+      {/*card sequance */}
+      <Cards 
+        targetDate = {"04/10/2023"} //month, day,Year
+        activityName = {"63BAT BackFeeed"}
+      />
+      <Cards 
+        targetDate = {"05/01/2023"} //month, day,Year
+        activityName = {"62 Gas charging"}
+      />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.Nav__container {
+    background-color: chocolate;
+    width: 100vw;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    z-index: 10;
+    margin-top: 10px;
+}
