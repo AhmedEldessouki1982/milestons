@@ -9,12 +9,12 @@ function App() {
       <Nav />
       {/*card sequance */}
       <Cards
-        targetDate = {"04/10/2023"}
+        targetDate = {"04/26/2023"}
         activityName = {"63BAT BackFeed"}
        />
        <Cards
-        targetDate = {"05/01/2023"}
-        activityName = {"62 GasCharging"}
+        targetDate = {"04/28/2023"}
+        activityName = {"62 FirstFiring"}
        />
 
        <Footer />     
